@@ -12,28 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!-- <activity android:name=".MainActivity" /> -->
-        <!-- <activity android:name=".mainscreen" /> -->
-        <!-- <activity android:name=".WelcomeActivity"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
+         <activity android:name=".MainActivity" />
+         <activity android:name=".mainscreen" />
+         <activity android:name=".WelcomeActivity">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
 
 
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
+         <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+         </activity>
         <activity android:name=".RegisterActivity" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity android:name=".RecipeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
+
+
         <activity android:name=".MealDetailActivity"></activity>
+        <activity android:name=".ShoppingListActivity" />
+        <activity android:name=".SelectDaysActivity" />
+        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".TabActivity"></activity>
+        <activity android:name=".TabDetailActivity"></activity>
+        <activity android:name=".ShoppingDetailActivity" />
     </application>
 
 </manifest>

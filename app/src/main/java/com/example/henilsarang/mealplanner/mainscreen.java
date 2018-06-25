@@ -27,5 +27,11 @@ public class mainscreen extends AppCompatActivity {
             finish();
         }
 
+        // Added by Tianchuan
+        else {
+            Intent intent = new Intent(mainscreen.this, RecipeActivity.class);
+            startActivity(intent);
+        }
+
     }
 }

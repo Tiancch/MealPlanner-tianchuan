@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="24sp"
+    android:textAppearance="@style/ThemeOverlay.AppCompat.Light"
+    android:textColor="@color/colorAccent"
+    android:textAlignment="inherit"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+</TextView>
+
+
+<!--</LinearLayout>-->

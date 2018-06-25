@@ -5,6 +5,13 @@
     <string name="Meal_logo">Meal_logo</string>
     <string name="title_activity_settings">Settings</string>
 
+    <string name="tab_text_1">Ingredients</string>
+    <string name="tab_text_2">Instructions</string>
+    <string name="account_settings">Email and Password Settings</string>
+    <string name="preference_settings">Preference Settings</string>
+    <string name="logout">Logout</string>
+    <string name="section_format">Information for Tab %1$d </string>
+
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->

@@ -21,8 +21,8 @@ import java.util.ArrayList;
 public class RecipeActivity extends AppCompatActivity {
 
     ListView recipes;
-    String[] titles = {"aa", "bb", "cc","dd","ee","ff"};
-    String[] descriptions = {"aa11", "bb22", "cc33","dd44","ee55","ff66"};
+    String[] titles = {"Cauliflower Tikka Masala","No-Pain Lo Mein","One-Pot Farfalle Primavera","One-Pot Spaghetti with Fresh Tomato Sauce","Pan Roasted Pork Chops and Broccoli","Pea and Goat's Cheese Risotto"};
+    String[] descriptions = {"4.6/5 Enticing, Appealing, Finger Licking!", "4.2 Enjoyable", "3.8 Marvelous","4.0/5 Best in Calgary","4.3/5 Delicious","4.7/5 Fantastic Savory"};
     int[] images = {R.drawable.cauliflower_tikka_masala, R.drawable.nopailomein, R.drawable.onepotfarfalleprimavera, R.drawable.onepotspaghettiwithfreshtomatosauce, R.drawable.panroastedporkchopsandbroccoli, R.drawable.peaandgoatscheeserisotto};
 
 
@@ -42,7 +42,7 @@ public class RecipeActivity extends AppCompatActivity {
         recipes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
-                Intent myIntent = new Intent(RecipeActivity.this, MealDetailActivity.class);
+                Intent myIntent = new Intent(RecipeActivity.this, TabActivity.class);
                 myIntent.putExtra("title", titles[i]);
                 myIntent.putExtra("image", images[i]);
                 myIntent.putExtra("description", descriptions[i]);
