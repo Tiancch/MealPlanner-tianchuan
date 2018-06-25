@@ -18,7 +18,6 @@
          <intent-filter>
          <action android:name="android.intent.action.MAIN" />
 
-
          <category android:name="android.intent.category.LAUNCHER" />
          </intent-filter>
          </activity>
@@ -36,12 +35,18 @@
 
 
         <activity android:name=".MealDetailActivity"></activity>
-        <activity android:name=".ShoppingListActivity" />
+
         <activity android:name=".SelectDaysActivity" />
         <activity android:name=".CalendarActivity"></activity>
         <activity android:name=".TabActivity"></activity>
         <activity android:name=".TabDetailActivity"></activity>
-        <activity android:name=".ShoppingDetailActivity" />
+        <activity android:name=".ShoppingListActivity">
+
+        </activity>
+        <activity android:name=".ShoppingDetailActivity">
+
+
+        </activity>>
     </application>
 
 </manifest>
